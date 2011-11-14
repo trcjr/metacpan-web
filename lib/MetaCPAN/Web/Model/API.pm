@@ -7,7 +7,6 @@ has [qw(api api_secure)] => ( is => 'ro' );
 
 use Encode ();
 use MetaCPAN::Web::MyCondVar;
-use Test::More;
 use JSON;
 use AnyEvent::HTTP qw(http_request);
 use Try::Tiny 0.09;
